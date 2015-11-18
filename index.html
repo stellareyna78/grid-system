@@ -146,7 +146,38 @@
 		<div class="col-md-2 col-md-offset-4">
 			<p>col-md-2</p>
 		</div>
+	</div> <!-- end of offset -->
 
+	<h2>Column Nesting</h2>
+	
+		<div class="row show-grid">
+			<div class="col-sm-5">
+				<p>col-sm-5</p>
+			</div>
+			<div class="col-sm-7">
+				<p>col-sm-7</p>
+				<div class="row">
+					<div class="col-sm-4">
+						<p>col-sm-4</p>
+					</div>
+					<div class="col-sm-4">
+						<p>col-sm-4</p>
+					</div>
+					<div class="col-sm-4">
+						<p>col-sm-4</p>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of nesting -->
+	
+<h2>Push and Pull</h2>	
+	<div class="row show-grid">
+		<div class="col-sm-8 col-md-7 col-md-push-5">
+		<p>article</p>
+		</div>
+		<div class="col-sm-4 col-md-5 col-md-pull-7">
+		<p>aside</p>
+		</div>
 	</div>
 	
 
